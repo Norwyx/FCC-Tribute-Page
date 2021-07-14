@@ -1,0 +1,35 @@
+/* Defining main selectors */
+:root {
+    --header-footer-clr: #0D0D0D;
+    --body-clr: #fff;
+    --header-footer-font-clr: #F7D008;
+    --main-font-clr: #000000;
+
+    --ff-primary: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Setting my margins to 0 */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Header*/
+
+
+/* Main section*/
+
+
+/* Footer*/
+
+
+/* Others*/
