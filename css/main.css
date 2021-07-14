@@ -24,12 +24,60 @@ p {
 }
 
 /* Header*/
+header {
+  background-color: var(--header-footer-clr);
+  padding: 1.25em;
+}
 
+#title {
+  font-family: var(--ff-primary);
+  color: var(--header-footer-font-clr);
+}
 
 /* Main section*/
+.container {
+  display:flex;
+}
 
+body {
+  background-color: var(--body-clr);
+}
 
+section {
+  padding: 0.75em;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  font-family: var(--ff-primary);
+}
+
+#tribute-info {
+  font-family: var(--ff-primary);
+}
+
+#imm-div {
+  width: 40%;
+}
 /* Footer*/
+footer {
+  background-color: var(--header-footer-clr);
+  padding: 1.25em;
+}
 
+footer {
+  font-family: var(--ff-primary);
+}
+
+#tribute-link {
+  color: var(--header-footer-font-clr);
+}
 
 /* Others*/
+.text-center {
+  text-align: center;
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!--Basic page needs-->
     <meta charset="utf-8">
@@ -18,19 +17,19 @@
     <div id="main" class="tribute-page">
         <!--First Layout-->
         <header>
-            <h1>
+            <h1 id="title" class="text-center">
                 Linus Torvalds
             </h1>
         </header> 
 
         <!--Second Layout-->
-        <section>
-            <figure>
-                <img src="linus_torvalds.jpg" alt="Linus Torvalds speaking at LinuxCon Europe 2014 in Dusseldorf">    
-                <figcaption>Linus Torvalds at LinuxCon Europe 2014</figcaption>
+        <section class="container">
+            <figure id="img-div">
+                <img id="image" src="images/linus_torvalds.jpg" alt="Linus Torvalds speaking at LinuxCon Europe 2014 in Dusseldorf">    
+                <figcaption class="text-center" id="img-caption">Linus Torvalds at LinuxCon Europe 2014</figcaption>
             </figure>
 
-            <section>
+            <section id="tribute-info">
                 <p>
                     Linus Benedict Torvalds is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed revision control system Git and the scuba dive logging and planning software Subsurface.He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel."He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award and the 2018 IEEE Masaru Ibuka Consumer Electronics Award.
                 </p>
@@ -47,8 +46,8 @@
 
         <!--Third Layout-->
         <footer>
-            <p>
-                You can read more about him in his <a target=_blank" href="https://es.wikipedia.org/wiki/Linus_Torvalds">wikipedia</a> entry
+            <p class="text-center">
+                You can read more about him in his <a id="tribute-link" target=_blank" href="https://es.wikipedia.org/wiki/Linus_Torvalds">wikipedia</a> entry
             </p>
         </footer>
     </div>          
