@@ -60,8 +60,8 @@ section {
   font-family: var(--ff-primary);
 }
 
-#imm-div {
-  width: 40%;
+#img-div {
+  width: 100%;
 }
 /* Footer*/
 footer {
@@ -71,6 +71,7 @@ footer {
 
 footer {
   font-family: var(--ff-primary);
+  color: #fff;
 }
 
 #tribute-link {
@@ -80,4 +81,11 @@ footer {
 /* Others*/
 .text-center {
   text-align: center;
+}
+
+/* Mobile Version*/
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
 }
