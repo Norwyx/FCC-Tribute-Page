@@ -1,17 +1,17 @@
 /* Defining main selectors */
 :root {
-    --header-footer-clr: #0D0D0D;
-    --body-clr: #fff;
-    --header-footer-font-clr: #F7D008;
-    --main-font-clr: #000000;
+  --header-footer-clr: #0D0D0D;
+  --body-clr: #fff;
+  --header-footer-font-clr: #F7D008;
+  --main-font-clr: #000000;
 
-    --ff-primary: "Roboto", sans-serif;
+  --ff-primary: "Roboto", sans-serif;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* Setting my margins to 0 */
@@ -20,81 +20,97 @@ h1,
 h2,
 h3,
 p {
-  margin: 0;
+margin: 0;
+}
+
+#main {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 /* Header*/
 header {
-  background-color: var(--header-footer-clr);
-  padding: 1.25em;
+background-color: var(--header-footer-clr);
+padding: 1.25em;
 }
 
 #title {
-  font-family: var(--ff-primary);
-  color: var(--header-footer-font-clr);
+font-family: var(--ff-primary);
+color: var(--header-footer-font-clr);
 }
 
 /* Main section*/
 .container {
-  display:flex;
+flex: 1;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 1.5rem;
+padding: 1.5rem;
 }
 
 body {
-  background-color: var(--body-clr);
-}
-
-section {
-  padding: 0.75em;
-}
-
-#image {
-  width: 100%;
-  height: auto;
-}
-
-#img-caption {
-  font-family: var(--ff-primary);
-}
-
-#tribute-info {
-  font-family: var(--ff-primary);
-  text-align: left;
-  line-height: 1.6;
+background-color: var(--body-clr);
+font-size: calc(0.625vmin + 0.825rem);
+width: auto;
+margin: auto;
 }
 
 #img-div {
-  width: 100%;
+width: 100%;
+max-width: 480px;
+margin: 0;
+}
+
+#image {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+#img-caption {
+font-family: var(--ff-primary);
+}
+
+#tribute-info {
+font-family: var(--ff-primary);
+text-align: left;
+line-height: 1.6;
+flex-grow: 1;
+min-width: 7ch;
+max-width: 60ch;
 }
 
 figcaption {
-  padding-top: 0.5rem;
+padding-top: 0.5rem;
 }
 
 p:not(:first-child) {
-  margin-top: 1.15rem;
+margin-top: 1.15rem;
 }
 
 /* Footer*/
 footer {
-  background-color: var(--header-footer-clr);
-  padding: 1.25em;
+background-color: var(--header-footer-clr);
+padding: 1.25em;
 }
 
 footer {
-  font-family: var(--ff-primary);
-  color: #fff;
+font-family: var(--ff-primary);
+color: #fff;
 }
 
 #tribute-link {
-  color: var(--header-footer-font-clr);
+color: var(--header-footer-font-clr);
 }
 
 /* Others*/
 .text-center {
-  text-align: center;
+text-align: center;
 }
 
-/* Mobile Version*/
+/* Mobile Version
 @media screen and (max-width: 480px) {
   .container {
     flex-direction: column;
@@ -114,7 +130,7 @@ footer {
   }
 }
 
-/* Tablet Version */
+/* Tablet Version 
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
