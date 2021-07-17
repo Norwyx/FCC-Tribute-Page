@@ -58,11 +58,22 @@ section {
 
 #tribute-info {
   font-family: var(--ff-primary);
+  text-align: left;
+  line-height: 1.6;
 }
 
 #img-div {
   width: 100%;
 }
+
+figcaption {
+  padding-top: 0.5rem;
+}
+
+p:not(:first-child) {
+  margin-top: 1.15rem;
+}
+
 /* Footer*/
 footer {
   background-color: var(--header-footer-clr);
@@ -88,4 +99,32 @@ footer {
   .container {
     flex-direction: column;
   }
+
+  #img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem;
+  padding-top: 0.1rem;
+  }
+
+  #tribute-info {
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+  }
+}
+
+/* Tablet Version */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.75rem;
+    padding-top: 0.1rem;
+    }
 }
