@@ -2,7 +2,7 @@
 
 A responsive web page about Linus Torvalds, his life and his achievements. This page was built as a front-end project of the [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) certification on responsive web design.
 
-- [-](Page) - Final result of the project
+- [Page](https://norwyx.github.io/FCC-Tribute-Page/) - Final result of the project
 - [Design](https://www.figma.com/file/v7bCsg1BHhcSGZ5QtPVCwa/Tribute-page?node-id=2%3A51) - An sketch of the page made in Figma
 
 ## Built with
