@@ -130,7 +130,7 @@ text-align: center;
   }
 }
 
-/* Tablet Version 
+ Tablet Version 
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -144,3 +144,4 @@ text-align: center;
     padding-top: 0.1rem;
     }
 }
+*/
