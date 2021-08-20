@@ -55,6 +55,7 @@ background-color: var(--body-clr);
 font-size: calc(0.625vmin + 0.825rem);
 width: auto;
 margin: auto;
+color: var(--main-font-clr);
 }
 
 #img-div {
