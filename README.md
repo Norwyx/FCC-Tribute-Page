@@ -5,6 +5,8 @@ A responsive web page about Linus Torvalds, his life and his achievements. This 
 - [Page](https://norwyx.github.io/FCC-Tribute-Page/) - Final result of the project
 - [Design](https://www.figma.com/file/v7bCsg1BHhcSGZ5QtPVCwa/Tribute-page?node-id=2%3A51) - An sketch of the page made in Figma
 
+<img src="../images/final-result.png" alt="Tribute Page">
+
 ## Built with
 - [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3)
